@@ -23,7 +23,7 @@ describe('Popover homework e2e tests', () => {
       });
     });
 
-    browser = await puppeteer.launch({ // опции нужно закомментить перед пушем (для CI)
+    browser = await puppeteer.launch({ // опции нужно закомментить перед пушем (для CI) или раскомментить для просмотра теста
       // headless: false, // show gui
       // slowMo: 500,
       // devtools: true, // show devTools
